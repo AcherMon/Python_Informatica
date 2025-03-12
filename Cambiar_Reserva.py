@@ -10,7 +10,6 @@ def cambiar_Reserva (sitios,reserva_personal):
         print(sitios[n])
     reserva_personal=int(input("¿En que sitio estaba?"))
     if reserva_personal==(1):
-        reserva_personal=int(input("¿A que sitio quiere cambiarse?"))
         asiento=sitios[reserva_personal]
         asiento["Reserva"]="True"
         asiento["Nombre"]="John Doe"

@@ -8,7 +8,6 @@ def cancelar_reserva (sitios,reserva_personal):
     asiento["Nombre"]="John Doe"
     for n in range(10):
         print(sitios[n])
-    reserva_personal=int(input("¿Que reserva quiere cancelar?"))
     if reserva_personal==(1):
         print("Reserva cancelada,señor John Doe")
     else:
